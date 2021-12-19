@@ -44,8 +44,24 @@ function App() {
           <p>12월 19일 발행</p>
           <hr/>
         </div>
+
+        
+        <Modal></Modal>
+        
     </div>
   );
+}
+
+function Modal(){
+  return(
+    <div>
+      <div className = "modal">
+        <h2>Title</h2>
+        <p>Date</p>
+        <p>Content</p>
+      </div>
+    </div>
+  )
 }
 
 export default App;
